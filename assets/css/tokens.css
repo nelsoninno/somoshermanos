@@ -2,15 +2,15 @@
    Somos Hermanos, el brazo social de Tacos Hermanos. Palette sampled from the
    brand stand ("Stand Somos Hermanos 23 marzo", curvas), not guessed. */
 :root{
-  /* Brand palette */
-  --blue:        #3D79C6;   /* primary brand blue (logo, headings, buttons) */
-  --blue-deep:   #2E63AB;   /* darker blue: hovers, dark bands, footer */
-  --blue-ink:    #21406E;   /* deep blue used for body text on light */
-  --blue-soft:   #EAF1FA;   /* very light blue tint for cards / alt sections */
-  --cream:       #EFDD9F;   /* brand cream / secondary */
-  --cream-soft:  #F7EDCB;   /* lifted cream for soft bands */
-  --green:       #2D8769;   /* Tacos Hermanos green (used only in that section) */
-  --green-deep:  #266E54;
+  /* Brand palette (official, from the Somos Hermanos brand book) */
+  --blue:        #1C79C4;   /* "Hermanos" primary brand blue (logo, headings, buttons) */
+  --blue-deep:   #155B93;   /* "Gratitud" deeper blue: hovers, dark bands, footer */
+  --blue-ink:    #14406C;   /* deep blue used for body text on light */
+  --blue-soft:   #E7F1FB;   /* very light blue tint for cards / alt sections */
+  --cream:       #F1E1B9;   /* "Fe" brand cream / secondary */
+  --cream-soft:  #F8EFD6;   /* lifted cream for soft bands */
+  --green:       #206249;   /* "Dar" green (Tacos Hermanos section) */
+  --green-deep:  #164836;
 
   /* Site-level roles */
   --bg:        #FFFDF6;   /* warm near-white page background */

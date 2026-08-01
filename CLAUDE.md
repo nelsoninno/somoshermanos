@@ -60,9 +60,20 @@ from the client:
    limit. Originals stay in the client's inputs folder.
 2. **Direct contact for Somos Hermanos** (own email / phone / WhatsApp / Instagram), if any. Right
    now all CTAs route to the restaurant and to Tacos Hermanos channels.
-3. **Favicon choice.** Currently the radiant heart on blue (their "💙"). If the client prefers the
-   basket isotipo or the wordmark, regenerate the favicon stack from that asset.
+3. **Favicon is the official H monogram** (white on the Hermanos blue), extracted as vector from the
+   brand book. Source tile in `assets/images/icons/`, recolorable mark in
+   `assets/images/logos/h-monogram-...svg`.
 4. **Legal / registration details** (legal name, any donation/tax info) if the site should show them.
+
+## Brand book and official palette
+
+The official **Brandbook Somos Hermanos** (Manual de Identidad Visual, 8 slides) arrived after the
+first build and is archived in `_source/intake/`. The site palette was updated to its exact printed
+hex: Hermanos `#1C79C4`, Gratitud `#155B93`, Dar (green) `#206249`, Fe (cream) `#F1E1B9`, Juntos
+(white). The favicon uses the brand's "H" monogram; the 1200x630 social-share image uses the brand
+cover look (SOMOS HERMANOS wordmark, white on the Hermanos blue). Brand typefaces per the book are
+Causten (titles/body) and Three Thousand (handwritten); the site ships Baloo 2 / Nunito / Caveat as
+free web stand-ins, with the real logo shipped as vector so it is always exact.
 
 ## Cross-link to Tacos Hermanos (client request)
 
