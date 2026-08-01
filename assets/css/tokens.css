@@ -1,0 +1,35 @@
+/* tokens.css — COLORS + FONTS only. The single source of truth. Edit this to re-skin.
+   Somos Hermanos, el brazo social de Tacos Hermanos. Palette sampled from the
+   brand stand ("Stand Somos Hermanos 23 marzo", curvas), not guessed. */
+:root{
+  /* Brand palette */
+  --blue:        #3D79C6;   /* primary brand blue (logo, headings, buttons) */
+  --blue-deep:   #2E63AB;   /* darker blue: hovers, dark bands, footer */
+  --blue-ink:    #21406E;   /* deep blue used for body text on light */
+  --blue-soft:   #EAF1FA;   /* very light blue tint for cards / alt sections */
+  --cream:       #EFDD9F;   /* brand cream / secondary */
+  --cream-soft:  #F7EDCB;   /* lifted cream for soft bands */
+  --green:       #2D8769;   /* Tacos Hermanos green (used only in that section) */
+  --green-deep:  #266E54;
+
+  /* Site-level roles */
+  --bg:        #FFFDF6;   /* warm near-white page background */
+  --ink:       #21406E;   /* main text (deep brand blue, not neutral grey) */
+  --muted:     #5E6E86;   /* secondary text */
+  --surface:   #FFFFFF;   /* cards */
+  --line:      #E7DFC6;   /* hairlines on cream */
+  --accent:    var(--blue);
+  --accent-2:  var(--cream);
+
+  /* Footer credit colors (read by the EKY credit logo) */
+  --footer-bg: var(--blue-deep);
+  --footer-fg: #FFFDF6;
+
+  /* Fonts */
+  --font-display: 'Baloo 2', system-ui, sans-serif;   /* friendly rounded headings */
+  --font-hand:    'Caveat', 'Baloo 2', cursive;        /* handwritten accents */
+  --font-body:    'Nunito', system-ui, sans-serif;     /* warm, readable body */
+
+  /* Layout */
+  --max: 1160px;
+}

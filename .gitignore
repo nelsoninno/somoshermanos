@@ -1,0 +1,4 @@
+_source/
+brand/
+*.DS_Store
+__pycache__/

@@ -1,0 +1,16 @@
+{
+  "name": "Somos Hermanos",
+  "short_name": "Somos Hermanos",
+  "description": "El brazo social de Tacos Hermanos: canastas de ayuda para niños en Sonsonate, cada domingo.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FFFDF6",
+  "theme_color": "#3D79C6",
+  "lang": "es",
+  "icons": [
+    {"src": "/favicon-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "/favicon-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png", "purpose": "any"}
+  ]
+}
