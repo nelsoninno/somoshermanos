@@ -9,8 +9,8 @@
   --blue-soft:   #E7F1FB;   /* very light blue tint for cards / alt sections */
   --cream:       #F1E1B9;   /* "Fe" brand cream / secondary */
   --cream-soft:  #F8EFD6;   /* lifted cream for soft bands */
-  --green:       #206249;   /* "Dar" green (Tacos Hermanos section) */
-  --green-deep:  #164836;
+  --green:       #2D8769;   /* Tacos Hermanos "verde hermano" (their brand green) */
+  --green-deep:  #266E54;   /* Tacos Hermanos "verde hondo", their footer colour */
 
   /* Site-level roles */
   --bg:        #FFFDF6;   /* warm near-white page background */

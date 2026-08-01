@@ -229,12 +229,16 @@
     </div>
     <div class="wrap reveal mt-3">
       <div class="vplayer">
-        <video class="vplayer__el" controls preload="none" playsinline
-          poster="../assets/images/video/poster-lanzamiento-somos-hermanos-somoshermanos.ong.webp"
-          aria-label="Somos Hermanos foundation launch video">
-          <source src="../assets/video/video-lanzamiento-somos-hermanos-somoshermanos.ong.mp4" type="video/mp4">
-          Your browser cannot play this video.
-        </video>
+        <div class="vfacade">
+          <video preload="none" playsinline
+            poster="../assets/images/video/poster-lanzamiento-somos-hermanos-somoshermanos.ong.webp">
+            <source src="../assets/video/video-lanzamiento-somos-hermanos-somoshermanos.ong.mp4" type="video/mp4">
+            Your browser cannot play this video.
+          </video>
+          <button class="vfacade__play" type="button" aria-label="Play the launch video">
+            <span class="vfacade__disc"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </button>
+        </div>
       </div>
     </div>
   </section>
@@ -285,11 +289,11 @@
         <p class="lead reveal mt-1">Small moments from our deliveries in the Sonsonate area. Press play on any of them.</p>
       </div>
       <div class="vwall">
-        <video class="vcard reveal" controls preload="none" playsinline poster="../assets/images/video/poster-historia-domingo-1-somos-hermanos-somoshermanos.ong.webp" aria-label="A story from a Somos Hermanos delivery"><source src="../assets/video/historia-domingo-1-somos-hermanos-somoshermanos.ong.mp4" type="video/mp4">Your browser cannot play this video.</video>
-        <video class="vcard reveal" controls preload="none" playsinline poster="../assets/images/video/poster-historia-domingo-2-somos-hermanos-somoshermanos.ong.webp" aria-label="A story from a Somos Hermanos delivery"><source src="../assets/video/historia-domingo-2-somos-hermanos-somoshermanos.ong.mp4" type="video/mp4">Your browser cannot play this video.</video>
-        <video class="vcard reveal" controls preload="none" playsinline poster="../assets/images/video/poster-historia-domingo-3-somos-hermanos-somoshermanos.ong.webp" aria-label="A story from a Somos Hermanos delivery"><source src="../assets/video/historia-domingo-3-somos-hermanos-somoshermanos.ong.mp4" type="video/mp4">Your browser cannot play this video.</video>
-        <video class="vcard reveal" controls preload="none" playsinline poster="../assets/images/video/poster-historia-domingo-4-somos-hermanos-somoshermanos.ong.webp" aria-label="A story from a Somos Hermanos delivery"><source src="../assets/video/historia-domingo-4-somos-hermanos-somoshermanos.ong.mp4" type="video/mp4">Your browser cannot play this video.</video>
-        <video class="vcard reveal" controls preload="none" playsinline poster="../assets/images/video/poster-historia-domingo-5-somos-hermanos-somoshermanos.ong.webp" aria-label="A story from a Somos Hermanos delivery"><source src="../assets/video/historia-domingo-5-somos-hermanos-somoshermanos.ong.mp4" type="video/mp4">Your browser cannot play this video.</video>
+        <div class="vcard vfacade reveal"><video preload="none" playsinline poster="../assets/images/video/poster-historia-domingo-1-somos-hermanos-somoshermanos.ong.webp"><source src="../assets/video/historia-domingo-1-somos-hermanos-somoshermanos.ong.mp4" type="video/mp4">Your browser cannot play this video.</video><button class="vfacade__play" type="button" aria-label="Play story"><span class="vfacade__disc"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span></button></div>
+        <div class="vcard vfacade reveal"><video preload="none" playsinline poster="../assets/images/video/poster-historia-domingo-2-somos-hermanos-somoshermanos.ong.webp"><source src="../assets/video/historia-domingo-2-somos-hermanos-somoshermanos.ong.mp4" type="video/mp4">Your browser cannot play this video.</video><button class="vfacade__play" type="button" aria-label="Play story"><span class="vfacade__disc"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span></button></div>
+        <div class="vcard vfacade reveal"><video preload="none" playsinline poster="../assets/images/video/poster-historia-domingo-3-somos-hermanos-somoshermanos.ong.webp"><source src="../assets/video/historia-domingo-3-somos-hermanos-somoshermanos.ong.mp4" type="video/mp4">Your browser cannot play this video.</video><button class="vfacade__play" type="button" aria-label="Play story"><span class="vfacade__disc"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span></button></div>
+        <div class="vcard vfacade reveal"><video preload="none" playsinline poster="../assets/images/video/poster-historia-domingo-4-somos-hermanos-somoshermanos.ong.webp"><source src="../assets/video/historia-domingo-4-somos-hermanos-somoshermanos.ong.mp4" type="video/mp4">Your browser cannot play this video.</video><button class="vfacade__play" type="button" aria-label="Play story"><span class="vfacade__disc"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span></button></div>
+        <div class="vcard vfacade reveal"><video preload="none" playsinline poster="../assets/images/video/poster-historia-domingo-5-somos-hermanos-somoshermanos.ong.webp"><source src="../assets/video/historia-domingo-5-somos-hermanos-somoshermanos.ong.mp4" type="video/mp4">Your browser cannot play this video.</video><button class="vfacade__play" type="button" aria-label="Play story"><span class="vfacade__disc"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span></button></div>
       </div>
     </div>
   </section>
@@ -308,7 +312,7 @@
           </div>
         </div>
         <div class="split__art">
-          <img src="../assets/images/logos/isotipo-canasta-somos-hermanos-somoshermanos.ong.webp" alt="The Somos Hermanos basket emblem" width="230" height="230" loading="lazy" style="filter:brightness(0) invert(1);opacity:.95">
+          <img src="../assets/images/logos/logo-tacos-hermanos-blanco-somoshermanos.ong.webp" alt="Tacos Hermanos logo" width="330" height="81" loading="lazy" style="max-width:330px;width:100%">
         </div>
       </div>
     </div>
